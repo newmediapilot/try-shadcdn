@@ -77,4 +77,4 @@ deploy
 
 echo "[deploy-preview.sh] "
 echo "[deploy-preview.sh] Build complete..."
-echo "[deploy-preview.sh] https://newmediapilot.github.io/try-shadcdn/"
+echo "[deploy-preview.sh] https://newmediapilot.github.io/try-shadcn/"
