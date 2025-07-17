@@ -5,7 +5,7 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig(({mode}) => ({
-    base: mode === 'production' ? '/try-solid-js/' : '/',
+    base: mode === 'production' ? '/try-shadcn/' : '/',
     server: {
         port: 1234,
     },
