@@ -1,7 +1,7 @@
 {
   "name": "try-shadcdn",
   "private": true,
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,6 +14,7 @@
     "pr": "prettier --write \"src/**/*\" && git add . && git commit -m \"pr\""
   },
   "dependencies": {
+    "@radix-ui/react-navigation-menu": "^1.2.13",
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.11",
     "class-variance-authority": "^0.7.1",

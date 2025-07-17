@@ -1,9 +1,13 @@
-import {Outlet} from 'react-router';
+import { Outlet } from "react-router";
+import { NavGlobal } from "@/components/NavGlobal.tsx";
 
 function NavLayout() {
-    return (
-        <Outlet />
-    )
+  return (
+    <>
+      <NavGlobal />
+      <Outlet />
+    </>
+  );
 }
 
-export default NavLayout
+export default NavLayout;
